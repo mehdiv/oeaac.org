@@ -1,0 +1,92 @@
+@import url('http://fonts.googleapis.com/css?family=Oswald:400,700,300');
+.lead {
+  font-size: 87px;
+  line-height: 80px;
+}
+.lead small {
+  letter-spacing: 1px;
+  font-size: 55px;
+  line-height: 54px;
+}
+.btn.btn-primary {
+  color: #fff;
+  text-transform: uppercase;
+}
+.client-slider {
+  list-style: none;
+}
+.client-slider li {
+  display: table;
+  vertical-align: middle;
+  min-height: 140px;
+}
+.client-slider li p {
+  display: table-cell;
+  vertical-align: middle;
+}
+@media (max-width: 991px) {
+  .lead {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .lead small {
+    font-size: 24px;
+    letter-spacing: default;
+    line-height: 25px;
+  }
+  .team {
+    -webkit-padding-start: 0px;
+  }
+  .team .og-close {
+    top: -20px;
+    right: -10px;
+  }
+  .team img {
+    width: 95px;
+    float: left;
+    margin-right: 20px;
+  }
+  .team .team-member {
+    clear: both;
+  }
+  .team .team-member .name {
+    padding-top: 20px;
+    text-align: left;
+    font-size: 18px;
+  }
+  .team .team-member .title {
+    padding-top: 10px;
+    text-align: left;
+    font-size: 16px;
+  }
+}
+@media (max-width: 640px) {
+  .team img {
+    width: 75px;
+  }
+  .team .team-member .name {
+    font-size: 14px;
+  }
+  .team .team-member .title {
+    padding-top: 0px;
+    font-size: 12px;
+  }
+}
+.bullet {
+  width: 75px;
+  height: 75px;
+  display: block;
+  margin: 15px;
+}
+.bullet.desarrollo-sustentable {
+  background: transparent url('../img/bullet-desarrollo-sustentable.png') no-repeat center center;
+}
+.bullet.educacion-sostenible {
+  background: transparent url('../img/bullet-educacion-sostenible.png') no-repeat center center;
+}
+.bullet.basura-cero {
+  background: transparent url('../img/bullet-basura-cero.png') no-repeat center center;
+}
+.bullet.responsabilidad-social {
+  background: transparent url('../img/bullet-responsabilidad-social.png') no-repeat center center;
+}
